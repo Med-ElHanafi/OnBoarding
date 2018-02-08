@@ -10,5 +10,5 @@
 
 @interface ContentView : UIView
 @property (weak, nonatomic) IBOutlet UILabel *title;
--(id)initWithTitle:(NSString*)title frame:(CGRect)frame color:(UIColor*)color;
+-(id)initWithTitle:(NSString*)title frame:(CGRect)frame;
 @end
