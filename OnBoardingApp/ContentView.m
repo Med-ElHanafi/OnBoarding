@@ -17,5 +17,14 @@
     // Drawing code
 }
 */
-
+-(id)initWithTitle:(NSString*)title frame:(CGRect)frame color:(UIColor*)color{
+    NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"ContentView" owner:self options:nil];
+    self = [nib objectAtIndex:0];
+    if (self) {
+        self.frame=frame;
+        _title.text=title;
+        self.backgroundColor=color;
+    }
+    return self;
+}
 @end

@@ -15,6 +15,8 @@
 		19329D7E202C639C00FD419B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19329D7D202C639C00FD419B /* main.m */; };
 		19329D88202C639C00FD419B /* OnBoardingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19329D87202C639C00FD419B /* OnBoardingAppTests.m */; };
 		19329D93202C639C00FD419B /* OnBoardingAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19329D92202C639C00FD419B /* OnBoardingAppUITests.m */; };
+		19329DA2202C658B00FD419B /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19329DA1202C658B00FD419B /* ContentView.m */; };
+		19329DA4202C659D00FD419B /* ContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19329DA3202C659D00FD419B /* ContentView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		19329D8E202C639C00FD419B /* OnBoardingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnBoardingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19329D92202C639C00FD419B /* OnBoardingAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OnBoardingAppUITests.m; sourceTree = "<group>"; };
 		19329D94202C639C00FD419B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19329DA0202C658B00FD419B /* ContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentView.h; sourceTree = "<group>"; };
+		19329DA1202C658B00FD419B /* ContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentView.m; sourceTree = "<group>"; };
+		19329DA3202C659D00FD419B /* ContentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,9 @@
 				19329D79202C639C00FD419B /* LaunchScreen.storyboard */,
 				19329D7C202C639C00FD419B /* Info.plist */,
 				19329D7D202C639C00FD419B /* main.m */,
+				19329DA0202C658B00FD419B /* ContentView.h */,
+				19329DA1202C658B00FD419B /* ContentView.m */,
+				19329DA3202C659D00FD419B /* ContentView.xib */,
 			);
 			path = OnBoardingApp;
 			sourceTree = "<group>";
@@ -240,6 +248,7 @@
 			files = (
 				19329D7B202C639C00FD419B /* LaunchScreen.storyboard in Resources */,
 				19329D78202C639C00FD419B /* Assets.xcassets in Resources */,
+				19329DA4202C659D00FD419B /* ContentView.xib in Resources */,
 				19329D76202C639C00FD419B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +276,7 @@
 			files = (
 				19329D73202C639C00FD419B /* ViewController.m in Sources */,
 				19329D7E202C639C00FD419B /* main.m in Sources */,
+				19329DA2202C658B00FD419B /* ContentView.m in Sources */,
 				19329D70202C639C00FD419B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
